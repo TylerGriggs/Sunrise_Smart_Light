@@ -26,7 +26,7 @@ Based off the NTP Client sketch provided by Arduino, and using the Dusk2Dawn lib
    - Brightness of RED is increased linearly, (0 < RED < 255)
    - Brightness of GREEN (our yellow) increases with 0.002x^2, (0 < GREEN < 130)
      - Resulting color shifts from red to bright yellow over the sequence
-     ![A graph showing the linear increase of the color red, and an exponential but scaled down increase of the color green.](https://github.com/TylerGriggs/Sunrise_Smart_Light/blob/main/Color_Graph.jpg?raw=true)
+     ![A graph showing the linear increase of the color red, and an exponential but scaled down increase of the color green.](https://github.com/TylerGriggs/Sunrise_Smart_Light/blob/main/ColorGraph1.jpg?raw=true)
 
 # Print Settings and Instructions
 ###### Top (for translusent effect using just white)
