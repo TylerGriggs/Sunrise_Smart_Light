@@ -11,7 +11,7 @@ Based off the NTP Client sketch provided by Arduino, and using the Dusk2Dawn lib
 - Push-Button Microswitch
 - 3D Printing Filament
 
-###### Startup Sequence
+###### Startup Sequence - When powered on
 1. Connect to WIFI 
    - Flashes yellow while connecting, then Flashes green when connected.
 2. Get NTP Time Online
@@ -21,8 +21,12 @@ Based off the NTP Client sketch provided by Arduino, and using the Dusk2Dawn lib
 4. Get Time from Midnight Today
    - Check if it's past time to turn on for today, if so, begin the sequence.
 
-###### Sunrise Sequence
-TODO
+###### Sunrise Sequence - Once a minute, each minute of the sequence
+   - (255 / Total Minutes in Sequence) * Current Minute in Sequence
+   - Brightness of RED is increased linearly, (0 < RED < 255)
+   - Brightness of GREEN (our yellow) increases with 0.002x^2, (0 < GREEN < 130)
+     - Resulting color shifts from red to bright yellow over the sequence
+     ![A graph showing the linear increase of the color red, and an exponential but scaled down increase of the color green.](https://github.com/TylerGriggs/Sunrise_Smart_Light/blob/main/Color_Graph.jpg?raw=true)
 
 # Print Settings and Instructions
 ###### Top (for translusent effect using just white)
