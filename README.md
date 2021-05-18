@@ -10,6 +10,7 @@ Based off the [NTP Client](https://www.arduino.cc/en/Tutorial/LibraryExamples/Wi
 - OLED IC2 32x128 Screen
 - Push-Button Microswitch
 - 3D Printing Filament
+- PROVIDE LOCATION VIA COORDINATES IN ARDUINO SKETCH
 
 ###### Startup Sequence - When powered on
 1. Connect to WIFI 
