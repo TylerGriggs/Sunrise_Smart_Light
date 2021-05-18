@@ -14,10 +14,10 @@ Based off the [NTP Client](https://www.arduino.cc/en/Tutorial/LibraryExamples/Wi
 ###### Startup Sequence - When powered on
 1. Connect to WIFI 
    - Flashes yellow while connecting, then Flashes green when connected.
-2. Get NTP Time Online
+2. Get [NTP](https://www.arduino.cc/en/Tutorial/LibraryExamples/Wifi101UdpNTPClient) Time Online
    - Requests the number of seconds since the Epoch. We know what day it is now.
 3. Calculate Time of Sunrise Today
-   - Using Dusk2Dawn library, availible through Arduino project manager
+   - Using [Dusk2Dawn library](https://github.com/dmkishi/Dusk2Dawn), availible through Arduino project manager
 4. Get Time from Midnight Today
    - Check if it's past time to turn on for today, if so, begin the sequence.
 
