@@ -1,8 +1,8 @@
 # Sunrise Smart Light
 Arduino WIFI Clock to animate LEDs with the sunrise.
-Based off the [NTP Client](https://www.arduino.cc/en/Tutorial/LibraryExamples/Wifi101UdpNTPClient) sketch provided by Arduino, and using the [Dusk2Dawn library](https://github.com/dmkishi/Dusk2Dawn), modified to run on an ESP-12E.
+Based off the [NTP Client](https://www.arduino.cc/en/Tutorial/LibraryExamples/Wifi101UdpNTPClient) sketch provided by Arduino, and using the [Dusk2Dawn library](https://github.com/dmkishi/Dusk2Dawn), modified to run on an ESP-12E (ESP8266, NodeMCU).
 
-![A 3D -printed rendering of the Sunrise Smart Light on a table at the beach during a sunrise.](https://github.com/TylerGriggs/Sunrise_Smart_Light/blob/main/SunriseSmartLight1.jpg?raw=true)
+![A 3D-printed rendering of the Sunrise Smart Light on a table at the beach during a sunrise.](https://github.com/TylerGriggs/Sunrise_Smart_Light/blob/main/SunriseSmartLight1.jpg?raw=true)
 
 # Materials
 - ESP-12E (and Micro-USB cable)
